@@ -52,15 +52,11 @@ Setup
 Clone this repository:
 
 bash
-Copy
-Edit
 git clone https://github.com/yourusername/url-shortener.git
 cd url-shortener
 Build and start the Docker containers for PostgreSQL, Redis, and the Spring Boot application:
 
 bash
-Copy
-Edit
 docker-compose up --build
 
 The application will be available at http://localhost:8080.
